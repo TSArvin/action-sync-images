@@ -43,3 +43,4 @@ jobs:
         skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.54.0 docker://tsarvin996/tektoncd-pipelines-cmd-workingdirinit:v0.54.0
         skopeo copy --all docker://cgr.dev/chainguard/busybox docker://tsarvin996/chainguard-busybox
         skopeo copy --all docker://mcr.microsoft.com/powershell:nanoserver docker://tsarvin996/powershell:nanoserver
+        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard:v0.42.0 docker://tsarvin996/tektoncd-dashboard-cmd-dashboard:v0.42.0
