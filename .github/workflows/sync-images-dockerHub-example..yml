@@ -33,11 +33,11 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --all docker://dyrnq/tektoncd-pipeline-cmd-controller:v0.54 docker://tsarvin/tektoncd-pipeline-tektoncd-pipeline-cmd-controller:v0.54
-        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/events:v0.54.0 docker://tsarvin/tektoncd-pipeline-events:v0.54.0
-        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers:v0.54.0 docker://tsarvin/tektoncd-pipeline-resolvers:v0.54.0
-        skopeo copy --all docker://dyrnq/tektoncd-pipeline-cmd-webhook:v0.54.0 docker://tsarvin/tektoncd-pipeline-tektoncd-pipeline-cmd-webhook:v0.54.0
-        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/sidecarlogresults:v0.54.0 docker://tsarvin/tektoncd-pipeline-sidecarlogresults:v0.54.0
-        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.54.0 docker://tsarvin/tektoncd-pipeline-workingdirinit:v0.54.0
-        skopeo copy --all docker://cgr.dev/chainguard/busybox docker://tsarvin/tektoncd-pipeline-busybox
-        skopeo copy --all docker://mcr.microsoft.com/powershell:nanoserver docker://tsarvin/tektoncd-pipeline-powershell:nanoserver
+        skopeo copy --all docker://dyrnq/tektoncd-pipeline-cmd-controller:v0.54 docker://tsarvin996/tsarvin/tektoncd-pipeline-tektoncd-pipeline-cmd-controller:v0.54
+        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/events:v0.54.0 docker://tsarvin996/tsarvin/tektoncd-pipeline-events:v0.54.0
+        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers:v0.54.0 docker://tsarvin996/tsarvin/tektoncd-pipeline-resolvers:v0.54.0
+        skopeo copy --all docker://dyrnq/tektoncd-pipeline-cmd-webhook:v0.54.0 docker://tsarvin996/tsarvin/tektoncd-pipeline-tektoncd-pipeline-cmd-webhook:v0.54.0
+        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/sidecarlogresults:v0.54.0 docker://tsarvin996/tsarvin/tektoncd-pipeline-sidecarlogresults:v0.54.0
+        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.54.0 docker://tsarvin996/tsarvin/tektoncd-pipeline-workingdirinit:v0.54.0
+        skopeo copy --all docker://cgr.dev/chainguard/busybox docker://tsarvin996/tsarvin/tektoncd-pipeline-busybox
+        skopeo copy --all docker://mcr.microsoft.com/powershell:nanoserver docker://tsarvin996/tsarvin/tektoncd-pipeline-powershell:nanoserver
