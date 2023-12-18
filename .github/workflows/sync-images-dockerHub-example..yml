@@ -44,3 +44,6 @@ jobs:
         skopeo copy --all docker://cgr.dev/chainguard/busybox docker://tsarvin996/chainguard-busybox
         skopeo copy --all docker://mcr.microsoft.com/powershell:nanoserver docker://tsarvin996/powershell:nanoserver
         skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard:v0.42.0 docker://tsarvin996/tektoncd-dashboard-cmd-dashboard:v0.42.0
+        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller:v0.25.3 docker://tsarvin996/tektoncd-triggers-cmd-controller:v0.25.3
+        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink:v0.25.3 docker://tsarvin996/tektoncd-triggers-cmd-eventlistenersink:v0.25.3
+        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook:v0.25.3 docker://tsarvin996/tektoncd-triggers-cmd-webhook:v0.25.3
