@@ -33,5 +33,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors:v0.25.3 docker://tsarvin996/tektoncd-triggers-cmd-interceptors:v0.25.3
-        
+        skopeo copy --all docker://gcr.io/tekton-releases/github.com/tektoncd/chains/cmd/controller:v0.19.0 docker://tsarvin996/tektoncd-chains-cmd-controller:v0.19.0   
