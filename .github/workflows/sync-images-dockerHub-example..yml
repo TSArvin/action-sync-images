@@ -33,5 +33,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --all docker://gcr.io/heptio-images/ks-guestbook-demo:0.2 docker://tsarvin996/ks-guestbook-demo:0.2
-        
+        skopeo copy --all docker://registry.k8s.io/metrics-server/metrics-server:v0.6.4 docker://tsarvin996/metrics-server:v0.6.4       
