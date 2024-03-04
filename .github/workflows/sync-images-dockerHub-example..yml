@@ -33,4 +33,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy --all docker://registry.k8s.io/metrics-server/metrics-server:v0.7.0 docker://tsarvin996/metrics-server:v0.7.0       
+        skopeo copy --all docker://dockerproxy.com/library/alpine:3.16.2 docker://tsarvin996/alpine:3.16.2       
